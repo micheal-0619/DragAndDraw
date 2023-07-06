@@ -4,7 +4,7 @@ import android.graphics.PointF
 
 class Box(val start: PointF) {
 
-    val end: PointF = start
+    var end: PointF = start
 
 
     val left: Float
